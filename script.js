@@ -12,15 +12,15 @@ engine.world.gravity.y = 0;
 engine.timing.timeScale = 0.5;
 
 const svgPaths = [
-    './bg-squiggle-01.svg',
-    './bg-squiggle-02.svg',
-    './bg-squiggle-03.svg',
-    './bg-squiggle-04.svg',
-    './bg-squiggle-05.svg',
-    './bg-star-01-1.svg',
-    './bg-star-01.svg',
-    './bg-star-02.svg',
-    './bg-test-01.svg'
+    './assets/bg-squiggle-01.svg',
+    './assets/bg-squiggle-02.svg',
+    './assets/bg-squiggle-03.svg',
+    './assets/bg-squiggle-04.svg',
+    './assets/bg-squiggle-05.svg',
+    './assets/bg-star-01-1.svg',
+    './assets/bg-star-01.svg',
+    './assets/bg-star-02.svg',
+    './assets/bg-test-01.svg'
 ];
 
 function createFloatingElement() {
