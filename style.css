@@ -41,13 +41,18 @@ body {
     color: #1E1E1E;
     text-align: center;
     font-family: "Rubik Mono One";
-    font-size: 128px;
+    /* Replace fixed 128px with responsive sizes */
+    font-size: min(8vw, 128px);
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     z-index: 10;
     opacity: 0;
     width: 90%;
+    /* Add padding and word wrapping */
+    padding: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 @keyframes fadeIn {
@@ -58,4 +63,13 @@ body {
 @keyframes fadeOut {
     from { opacity: 1; }
     to { opacity: 0; }
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .typing-text {
+        font-size: min(6vw, 64px);
+        width: 85%;
+        padding: 10px;
+    }
 }
